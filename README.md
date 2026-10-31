@@ -8,7 +8,7 @@ Android 8+ application for KFDtool container management and USB keyloader commun
 
 Source is in `KFDmobile/`. Startup of 1.0.0 was verified on a Samsung XCover7 Pro running Android 16.
 
-## Build and test
+## Build and Test
 
 Install .NET SDK 10.0.401, the Android workload (`dotnet workload install android`), Java 21, and Android SDK platform/build tools 36. Configure the Android SDK and Java paths for your machine.
 
@@ -20,7 +20,7 @@ dotnet build App/App.csproj -c Release -t:SignAndroidPackage -p:AndroidSdkDirect
 
 The startup fix requires `AndroidEnableMarshalMethods=false`; retain this project setting. Signing keys are not in the repository. A newly generated signing key cannot update an APK signed with the existing release key.
 
-## Features and validation
+## Features and Validation
 
 - Encrypted EKC containers, keys and groups; password-protected local DKF export.
 - USB communication, MR emulation, received-key export and optional container import.
