@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup><DefaultItemExcludes>$(DefaultItemExcludes);**/bin/**;**/obj/**</DefaultItemExcludes></PropertyGroup>
+  <PropertyGroup Condition="'$(KfdBuildRoot)' != ''">
+    <BaseOutputPath>$(KfdBuildRoot)/$(MSBuildProjectName)/bin/</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(KfdBuildRoot)/$(MSBuildProjectName)/obj/</BaseIntermediateOutputPath>
+  </PropertyGroup>
+</Project>

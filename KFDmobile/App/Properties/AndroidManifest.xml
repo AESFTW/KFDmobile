@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-feature android:name="android.hardware.usb.host" android:required="true" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+  <application android:allowBackup="false" android:enableOnBackInvokedCallback="false" android:icon="@drawable/squirrel_radio" android:label="KFD Mobile" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:usesCleartextTraffic="false" android:supportsRtl="true" />
+</manifest>
+
